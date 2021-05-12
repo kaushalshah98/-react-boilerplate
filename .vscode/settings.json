@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "explorer.confirmDelete": false,
+  "typescript.suggest.paths": false,
+  "javascript.validate.enable": true,
+  "javascript.suggestionActions.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "path-intellisense.extensionOnImport": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off", // let this be off
+  "html.format.wrapAttributes": "aligned-multiple",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true
+}

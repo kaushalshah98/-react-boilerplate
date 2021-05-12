@@ -7,9 +7,21 @@
         "runtime": "automatic"
       }
     ],
-    "@babel/preset-typescript"
+    "@babel/preset-typescript",
+    "@emotion/babel-preset-css-prop"
   ],
   "plugins": [
+    ["@emotion"],
+    [
+      "babel-plugin-styled-components",
+      {
+        "pure": true
+        // "fileName": false,
+        // "displayName": false,
+        // "ssr": false
+      }
+    ],
+    ["@styles-system/babel-plugin"],
     [
       "@babel/plugin-transform-runtime",
       {
